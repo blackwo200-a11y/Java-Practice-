@@ -1,0 +1,18 @@
+public class Program
+{
+    public static void main(String[] args) {
+        
+        System.out.println("Enter Your Name  :");
+        
+        java.util.Scanner scan =new java.util.Scanner(System.in);
+        
+        String   strName = scan.nextLine();
+        
+        System.out.println ("Enter Your Age  :");
+         
+          int age = scan.nextInt();
+          
+          System.out.println("Your Name Is " + strName);
+          System.out.println ("YourAge Is " + age );
+}
+}
